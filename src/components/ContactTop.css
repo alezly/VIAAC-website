@@ -1,0 +1,24 @@
+.top-title-container{
+    color: white;
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 12vh;
+}
+.top-description-container{
+    background: rgb(255 255 255 / 44%);
+    height: 15vh;
+    color: #0A1B2D;
+    padding: 2rem 20rem;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+    .top-title-container {
+        height: 15vh;
+        padding-top: 6vh;
+    }
+}

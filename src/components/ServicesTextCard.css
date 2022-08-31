@@ -1,0 +1,50 @@
+.services-text-card {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0A1B2D;
+    font-family: 'Poppins', sans-serif;
+    margin: 5rem 0 0 0;
+}
+  
+.container-text {
+    width: 50%;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+.first-p{
+    font-size: 1.1rem;
+    margin-top: 5rem;
+    font-weight: lighter;
+
+}
+.title{
+    margin: 2rem 0;
+}
+.main-p{
+    font-size: 1rem;
+    text-align: justify;
+} 
+@media (min-width: 2560px) {
+    .container-text{
+        max-width: 2200px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .container-text{
+        width: 90%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .services-text-card{
+        margin: 0;
+    }
+    .darkTitle {
+        text-align: center;
+    }
+}

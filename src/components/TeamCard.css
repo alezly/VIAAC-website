@@ -1,0 +1,101 @@
+.team-card {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: #0A1B2D;
+    font-family: 'Poppins', sans-serif;
+    margin: 3rem 0 7rem 0;
+    padding-top: 4rem;
+}
+  
+.container-team {
+    width: auto;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+.team img{
+    width: 100%;
+    z-index: 1;
+}
+.team .row.right {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: -4rem;
+}
+.col{
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+}
+.team .row.left {
+    display: flex;
+    margin-bottom: -4rem;
+}
+.team aside{
+    text-align: justify;
+    background-image: url('../assents/Img/gray-back.png');
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team aside h2{
+    margin-bottom: 2rem;
+}
+.team aside p{  
+    text-align: justify;
+}
+.team aside.left{
+    padding: 2rem 2rem 0rem 4rem;
+}
+.team aside.right{
+    text-align: right;
+    padding: 2rem 4rem 0rem 2rem;
+}
+.reset {
+    clear: both;
+} 
+@media (min-width: 2560px) {
+    .container-team{
+        max-width: 2200px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .container-team{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .team-card{
+        margin: 0;
+    }
+    .team .row.right {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-bottom: 0;
+    }
+    .team .row.left {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-bottom: 0;
+    }
+    .team img{
+        width: 50%;
+    }
+    .team aside.left{
+        padding: 1rem;
+    }
+    .team aside.right{
+        padding: 1rem;
+    }
+    .col-img{
+        display: flex;
+        justify-content: center;
+    }
+}

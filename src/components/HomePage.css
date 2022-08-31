@@ -1,0 +1,181 @@
+.container-home{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../assents/Img/background-home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-title h1{    
+    color: white;
+    font-size: 10rem;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+.isotipo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 13rem;
+    animation-duration: 2s;
+    animation-name: isotipo;
+}
+.language{
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+    width: 5rem;
+}
+@keyframes isotipo {
+    0%{
+        opacity: 0;
+        transform: scale(1.5);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.subtitle{
+    color: white;
+    position: absolute;
+    bottom: 2rem;
+    left: 4rem;
+    font-family: 'Poppins', sans-serif;
+}
+.info-home-card {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #0A1B2D;
+    font-family: 'Poppins', sans-serif;
+    margin: 5rem 0;
+    margin-bottom: 0;
+}
+.info-home-max-width {
+    width: auto;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+.info-home-max-width .info{
+    text-align: justify;
+}
+.info-home-max-width .info h1{
+    margin: 3rem 0;
+}
+.logo-description-homepage{
+    width: 100%;
+}
+.wave-description-card {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background: #0a1b2d;
+    margin-top: -1rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -1rem;
+}
+.info-home-max-width .paragraph{
+    margin-right: 22vw;
+    margin-top: -15rem;
+}
+.info-home-max-width .paragraph h4{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.info-home-max-width .paragraph p{
+    color: white;
+}
+.navbarMainHome {
+    background: transparent;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    position: absolute;
+    top: 65vh;
+}
+.navbarMainHome .nav-links {
+    color: white;
+    border-right: 2px solid white;
+}
+.navbarMainHome .nav-itemMain:hover .nav-links{
+    box-shadow: inset 500px 0 0 0 #F8B234;
+    border-right: 2px solid #F8B234;
+    color: white;
+    border-radius: 0.6rem;
+  }
+.navbar-home-icon{
+    display: none;
+}
+@media (min-width: 2560px) {
+    .info-home-max-width{
+        max-width: 2200px;
+    }
+    .info-home-max-width .paragraph {
+        margin-right: 30vw;
+    }
+}
+@media screen and (max-width: 960px) {
+    .container-home{
+        background-image: url('../assents/Img/background-home-cell.png');
+    }
+    .info-home-max-width{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .container-title h1 {
+        font-size: 6rem;
+    }
+    .info-home-max-width .paragraph {
+        margin-right: 2rem;
+        margin-top: 0;
+    }
+    .logo-description-homepage {
+        width: 50%;
+    }
+    .navbarMainHome{
+        width: 100%;
+        top: 0;
+        position: fixed;
+        left: 0;
+        background: white;
+    }
+    .navbarMainHome .nav-links {
+        border-right: none;
+    }
+    .subtitle {
+        font-size: 1rem;
+        left: 4rem;
+    }
+    .navbar-home-icon {
+        display: block;
+        position: absolute;
+        top: 15%;
+        left: 3rem;
+        height: 60%;
+    }
+}

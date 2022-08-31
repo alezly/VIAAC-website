@@ -1,0 +1,43 @@
+.btn-services-card {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #0A1B2D;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+  
+.container-btn-services {
+    width: auto;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+.open-btn{
+    background: #0A1B2D;
+    color: white;
+    border: 1px solid #707070;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+}
+.paragraph div{
+    display: flex;
+    color: #0A1B2D;
+}
+.paragraph p{
+    padding-left: 1.5%;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+.vineta{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.arrow{
+    height: 2.5rem;
+    cursor: pointer;
+}

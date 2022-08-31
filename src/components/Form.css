@@ -1,0 +1,82 @@
+.form-card {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #0A1B2D;
+    font-family: 'Poppins', sans-serif;
+    margin: 5rem 0;
+}
+.form-max-width {
+    width: auto;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.form-container{
+    width: 50vw;
+    background: rgb(255 255 255 / 20%);
+}
+.border-form{
+    background: white;
+    height: 3rem;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 12%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 0.5rem;
+}
+.form-icon{
+    height: 1.7rem;
+}
+.form{
+    padding: 2rem;
+    color: #0A1B2D;
+}
+.btn-send{
+    background: #0A1B2D;
+    border: 1px solid #0A1B2D;
+    padding: 0.3rem 2rem;
+    border-radius: 0.8rem;
+    margin-top: 1rem;
+}
+.row-card-icon{
+    display: flex;
+    justify-content: center;
+}
+.col-contact-card{
+    height: auto;
+    width: 15rem;
+    margin: 1rem 0;
+}
+.line-white{
+    width: 80%;
+}
+@media (min-width: 2560px) {
+    .form-max-width{
+        max-width: 2200px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .form-max-width{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .top-description-container {
+        padding: 1rem 1rem;
+    }
+    .form-container{
+        width: 80vw;
+    }
+    .line-white {
+        width: 100%;
+    }    
+    .col-contact-card {
+        width: 12rem;
+    }
+}

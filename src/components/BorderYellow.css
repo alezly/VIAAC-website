@@ -1,0 +1,18 @@
+.border-container{
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+.border-img{
+    width: 95%;
+}
+
+@media screen and (max-width: 960px) {
+    .border-container{
+        /* top: 70vh !important;
+        z-index: 1; */
+        display: none;
+    }
+}
