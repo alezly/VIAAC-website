@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/VIAAC-website/static/css/main.0bc071b7.css",
+    "main.js": "/VIAAC-website/static/js/main.9c71ee3f.js",
+    "static/media/software.mp4": "/VIAAC-website/static/media/software.65c2820c775ed61c3d84.mp4",
+    "static/media/camera-video.mp4": "/VIAAC-website/static/media/camera-video.8d53865a38e20c6624b4.mp4",
+    "static/media/skirt-video.mp4": "/VIAAC-website/static/media/skirt-video.8633773c45c075b8af88.mp4",
+    "static/media/laser-video.mp4": "/VIAAC-website/static/media/laser-video.c1313975fbe12d39f162.mp4",
+    "static/media/contact-background.png": "/VIAAC-website/static/media/contact-background.06360fba21a8ceb4dfd8.png",
+    "static/media/background.png": "/VIAAC-website/static/media/background.a9d99bce27487ccae55f.png",
+    "static/media/background-home-cell.png": "/VIAAC-website/static/media/background-home-cell.5c64b5b151cdc7f1d98e.png",
+    "static/media/background-home.png": "/VIAAC-website/static/media/background-home.114c96b01cae856b91c8.png",
+    "static/media/teamPanel.png": "/VIAAC-website/static/media/teamPanel.c2f4f3f6704940656572.png",
+    "static/media/Egler.png": "/VIAAC-website/static/media/Egler.9187879ffc0fc6ab5bcc.png",
+    "static/media/yellow-services-background.png": "/VIAAC-website/static/media/yellow-services-background.15bd9ea1313777287539.png",
+    "static/media/wave.png": "/VIAAC-website/static/media/wave.93b25c57110f1a7d3e2e.png",
+    "static/media/Estephen.png": "/VIAAC-website/static/media/Estephen.e5db8f962db1de853d12.png",
+    "static/media/gray-back.png": "/VIAAC-website/static/media/gray-back.971fe6dd7d22ba89118f.png",
+    "static/media/Yellow-border.png": "/VIAAC-website/static/media/Yellow-border.afb148586f1a2beffc44.png",
+    "static/media/right-software.png": "/VIAAC-website/static/media/right-software.436dc34942185c69b791.png",
+    "static/media/logo.png": "/VIAAC-website/static/media/logo.9034388da86b90c0944e.png",
+    "static/media/full-logo.png": "/VIAAC-website/static/media/full-logo.a37e3a6b9ca111f1b9c2.png",
+    "static/media/isotipo-blanco.png": "/VIAAC-website/static/media/isotipo-blanco.3063e3ece85918ab2304.png",
+    "static/media/logo-homepage.png": "/VIAAC-website/static/media/logo-homepage.6f57e9dd226068cacc68.png",
+    "index.html": "/VIAAC-website/index.html",
+    "main.0bc071b7.css.map": "/VIAAC-website/static/css/main.0bc071b7.css.map",
+    "main.9c71ee3f.js.map": "/VIAAC-website/static/js/main.9c71ee3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bc071b7.css",
+    "static/js/main.9c71ee3f.js"
+  ]
+}
